@@ -1,0 +1,115 @@
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.conteiner {
+    width: 901px; 
+    margin: 0 auto;
+}
+nav {
+    width: 900px; 
+    height: 113px;
+    text-align: center;
+    margin-top: 77px;
+    }
+.navigation {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    list-style-type: none;
+    width: 575;
+    height: 12;
+        }
+.navigation li {
+    display: inline-block;
+}
+.navigation li:not(:last-child) {
+    margin-right: 100px;
+}
+a {    
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-family: serif;
+    text-align: justify;
+    vertical-align: center;
+    font-family: 'Playfair Display', serif;
+}
+.speciallink {
+    color: #03a9f4;
+}
+.Blocks {
+    display: inline-block;
+    margin: 0;    
+    padding: 0;
+}
+.Blocks:last-child {   
+     margin-right: 0;}
+
+.line {
+    width: 420px;
+    display: inline-block;
+    margin-right: 60px;
+    /* margin-bottom: 130px; */
+}
+.line:nth-child(2n) {
+    margin-right: 0;
+    margin-left: -.25em;
+}
+.line:not(:nth-last-child(-n+2)) {
+    margin-bottom: 130px;
+}
+
+.block1 {
+    margin-top: 32px;
+    margin-bottom: 0;
+    color: #b4ad9e;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+}
+.block2 {
+    margin-top: 32px;
+    margin-bottom: 0;
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+}
+.block3 {
+    margin-top: 42px;
+    margin-bottom: 135;
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+}
+.block-last {
+    margin-top: 42px;
+    margin-bottom: 0;
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+}
+.lastone {
+    margin-bottom: 55px;
+}
+.Btn {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    width: 165px;
+    height: 60px;
+    background-color: #ffffff;
+    font-size: 20px;
+    font-family: serif;
+    border-color: #626262;
+    color: #626262;
+    margin-left: 360px;
+    margin-bottom: 70px;
+}
