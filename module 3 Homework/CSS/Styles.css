@@ -14,7 +14,7 @@ img {
     height: auto;
 }
 .conteiner {
-    width: 901px; 
+    width: 900px; 
     margin: 0 auto;
 }
 nav {
@@ -28,8 +28,8 @@ nav {
     padding: 0;
     display: inline-block;
     list-style-type: none;
-    width: 575;
-    height: 12;
+    width: 575px;
+    height: 20px;
         }
 .navigation li {
     display: inline-block;
@@ -45,14 +45,14 @@ a {
     text-align: justify;
     vertical-align: center;
     font-family: 'Playfair Display', serif;
-}
-.speciallink {
-    color: #03a9f4;
-}
-.Blocks {
+    }
+    .Blocks {
     display: inline-block;
     margin: 0;    
     padding: 0;
+}
+a:hover {
+    color: #03a9f4;
 }
 .Blocks:last-child {   
      margin-right: 0;}
@@ -61,7 +61,6 @@ a {
     width: 420px;
     display: inline-block;
     margin-right: 60px;
-    /* margin-bottom: 130px; */
 }
 .line:nth-child(2n) {
     margin-right: 0;
@@ -86,7 +85,7 @@ a {
 }
 .block3 {
     margin-top: 42px;
-    margin-bottom: 135;
+    margin-bottom: 0;
     font-family: 'Playfair Display', serif;
     font-size: 14px;
 }
