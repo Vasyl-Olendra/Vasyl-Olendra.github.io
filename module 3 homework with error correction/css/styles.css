@@ -45,7 +45,7 @@ a {
     text-align: justify;
     vertical-align: center;
     font-family: 'Playfair Display', serif;
-    }
+}
     .blocks {
     display: inline-block;
     margin: 0;    
@@ -55,8 +55,8 @@ a:hover {
     color: #03a9f4;
 }
 .blocks:last-child {   
-     margin-right: 0;}
-
+     margin-right: 0;
+}
 .line {
     width: 420px;
     display: inline-block;
