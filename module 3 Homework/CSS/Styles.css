@@ -46,7 +46,7 @@ a {
     vertical-align: center;
     font-family: 'Playfair Display', serif;
     }
-    .Blocks {
+    .blocks {
     display: inline-block;
     margin: 0;    
     padding: 0;
@@ -54,7 +54,7 @@ a {
 a:hover {
     color: #03a9f4;
 }
-.Blocks:last-child {   
+.blocks:last-child {   
      margin-right: 0;}
 
 .line {
@@ -98,7 +98,7 @@ a:hover {
 .lastone {
     margin-bottom: 55px;
 }
-.Btn {
+.btn {
     display: block;
     text-align: center;
     text-decoration: none;
