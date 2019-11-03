@@ -121,6 +121,12 @@ nav {
 .tradingbox:last-child {
     margin-bottom: 0;
 }
+.name {
+    background-color: #323232;
+}
+.name:hover {
+    background-color:#1abc9c;
+}
 .bill a {
     display: block;
     text-decoration: none;
@@ -155,7 +161,6 @@ nav {
 }
 .info {
     float: left;
-    height: 497px;
     width: 351px;
 }
 .info:not(:last-child) {
