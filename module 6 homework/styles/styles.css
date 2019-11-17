@@ -1,0 +1,249 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+body {
+  width: 1201px;
+  margin: 0 auto;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  height: 65px;
+}
+header h1 {
+  padding-bottom: 15px;
+}
+.logo {
+  text-decoration: none;
+  color: #aee0d3;
+  font-size: 30px;
+  font-family: "Montserrat";
+  font-weight: bold;
+  cursor: pointer;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  text-decoration: none;
+  color: #aee0d3;
+  font-size: 14px;
+  font-family: "Montserrat";
+  font-weight: 400;
+  text-transform: uppercase;
+  cursor: pointer;
+  width: 490px;
+}
+.nav li a {
+  display: block;
+}
+.nav li a::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 3px;
+  background-color: #ffffff;
+  margin-top: 12px;
+}
+.nav li a:hover {
+  color: #d98080;
+}
+.nav li a:hover:after {
+  background-color: #d98080;
+}
+.title-wrap {
+  display: flex;
+  justify-content: center;
+  padding-top: 112px;
+}
+.title {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  width: 320px;
+}
+.kaushan {
+  font-size: 24px;
+  font-family: "Kaushan Script", cursive;
+  color: #363636;
+}
+.title-name {
+  text-transform: uppercase;
+  font-size: 30px;
+  font-family: "Montserrat";
+  font-weight: bold;
+  color: #363636;
+}
+.title-name::after {
+  display: block;
+  content: "";
+  height: 3px;
+  width: 60px;
+  background-color: #d98080;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 43px;
+}
+.info-block {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 65px;
+}
+.info-wrap-1 {
+  display: flex;
+  margin-bottom: 100px;
+}
+
+.info-wrap-2 {
+  display: flex;
+}
+.info {
+  display: flex;
+  width: 100%;
+  align-items: flex-start;
+}
+.icon {
+  margin-right: 27px;
+}
+.info-logo img {
+  height: 100%;
+  width: 100%;
+}
+.info-context h1 {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-family: "Montserrat";
+  color: #363636;
+  margin-bottom: 17px;
+}
+.info-context p {
+  font-size: 15px;
+  font-family: "Roboto", sans-serif;
+  color: #989898;
+  width: 289px;
+}
+.info:not(:last-child) {
+  margin-right: 50px;
+}
+.paragraph {
+  font-size: 15px;
+  font-family: "Roboto", sans-serif;
+  color: #989898;
+  text-align: center;
+  margin-top: 43px;
+  margin-bottom: 93px;
+}
+.team {
+  display: flex;
+  justify-content: space-between;
+}
+.team-member {
+  position: relative;
+}
+.overlay {
+  position: absolute;
+  background-image: linear-gradient(to top, #f5e28d 0%, #d97f7f 100%);
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+.overlay a {
+  height: 56px;
+  width: 56px;
+  background-color: #fce38a;
+  display: inline-block;
+  border: 1px solid;
+  border-color: transparent;
+  transition: all 200ms linear;
+}
+.overlay:hover {
+  opacity: 90%;
+  transform: translate(-11px, -11px);
+  box-shadow: 11px 11px 0 #aee0d3;
+  transition: all 200ms linear;
+}
+.overlay a:hover {
+  background-color: #aee0d3;
+  transition: all 200ms linear;
+}
+.team-name h3 {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-family: "Montserrat";
+  color: #363636;
+  text-align: center;
+  margin-top: 30px;
+}
+.team-name p {
+  font-size: 15px;
+  font-family: "Roboto", sans-serif;
+  color: #989898;
+  text-align: center;
+  font-style: italic;
+
+  margin-top: 15px;
+  margin-bottom: 85px;
+}
+footer {
+  display: flex;
+  justify-content: space-between;
+  height: 62px;
+  align-items: center;
+  border-top: 1px solid;
+  border-color: #cccccc;
+}
+.copyright span {
+  font-size: 14px;
+  font-family: "Montserrat";
+  color: #363636;
+}
+.copyright a {
+  font-size: 14px;
+  font-family: "Montserrat";
+  color: #d98080;
+  text-decoration: none;
+  cursor: pointer;
+}
+.subscribing {
+  display: flex;
+  justify-content: flex-end;
+}
+.subscribing input[type="search"] {
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+  border-right: transparent;
+  text-transform: capitalize;
+  font-family: "Roboto", sans-serif;
+  color: #cccccc;
+  padding-left: 10px;
+  font-style: italic;
+  width: 229px;
+  height: 38px;
+}
+.subscribing input[type="submit"] {
+  background-color: #aee0d3;
+  border: 1px solid #aee0d3;
+  color: #ffffff;
+  text-transform: uppercase;
+  font: 14px "Montserrat", sans-serif;
+  text-align: center;
+  width: 149px;
+  height: 38px;
+  font-weight: 700;
+  cursor: pointer;
+}
