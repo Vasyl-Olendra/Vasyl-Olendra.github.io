@@ -9,7 +9,8 @@ img {
   height: auto;
 }
 body {
-  width: 1201px;
+  max-width: 1201px;
+  width: 100%;
   margin: 0 auto;
 }
 header {
@@ -58,6 +59,11 @@ header h1 {
 }
 .nav li a:hover:after {
   background-color: #d98080;
+}
+main {
+  max-width: 1148px; 
+  width: 100%;
+    margin: 0 auto;
 }
 .title-wrap {
   display: flex;
@@ -109,28 +115,75 @@ header h1 {
 }
 .info {
   display: flex;
-  width: 100%;
-  align-items: flex-start;
-}
-.icon {
-  margin-right: 27px;
-}
-.info-logo img {
-  height: 100%;
+  flex-wrap: wrap;
   width: 100%;
 }
-.info-context h1 {
+.clock-icon::before {
+  content: '';
+  display: flex;
+  background-image: url('/img/clock.png');
+  height: 33px;
+  width: 30px;
+  padding-right: 30px;
+  background-repeat: no-repeat;
+}
+.line-icon::before {
+  content: '';
+  display: flex;
+  background-image: url('/img/line.png');
+  height: 33px;
+  width: 30px;
+  padding-right: 30px;
+  background-repeat: no-repeat;
+}
+.monitor-icon::before {
+  content: '';
+  display: flex;
+  background-image: url('/img/monitor.png');
+  height: 33px;
+  width: 30px;
+  padding-right: 30px;
+  background-repeat: no-repeat;
+}
+.book-icon::before {
+  content: '';
+  display: flex;
+  background-image: url('/img/book.png');
+  height: 33px;
+  width: 30px;
+  padding-right: 30px;
+  background-repeat: no-repeat;
+}
+.house-icon::before {
+  content: '';
+  display: flex;
+  background-image: url('/img/house.png');
+  height: 33px;
+  width: 30px;
+  padding-right: 30px;
+  background-repeat: no-repeat;
+}
+.focus-icon::before {
+  content: '';
+  display: flex;
+  background-image: url('/img/focus.png');
+  height: 32px;
+  width: 32px;
+  padding-right: 30px;
+  background-repeat: no-repeat;
+}
+.info h3 {
   text-transform: uppercase;
   font-size: 14px;
   font-family: "Montserrat";
   color: #363636;
-  margin-bottom: 17px;
 }
-.info-context p {
+.info p {
   font-size: 15px;
   font-family: "Roboto", sans-serif;
   color: #989898;
-  width: 289px;
+  width: 349px;
+  padding-left: 60px;
 }
 .info:not(:last-child) {
   margin-right: 50px;
@@ -149,6 +202,8 @@ header h1 {
 }
 .team-member {
   position: relative;
+  width: 381px;
+  height: 470px;
 }
 .overlay {
   position: absolute;
@@ -170,6 +225,18 @@ header h1 {
   border: 1px solid;
   border-color: transparent;
   transition: all 200ms linear;
+}
+.facebook-icon {
+  background-image: url('/img/facebook.png');
+}
+.instagram-icon {
+  background-image: url('/img/instagram.png');
+}
+.pinterest-icon {
+  background-image: url('/img/pinterest.png');
+}
+.twitter-icon {
+  background-image: url('/img/twitter.png');
 }
 .overlay:hover {
   opacity: 90%;
@@ -227,13 +294,19 @@ footer {
   background-color: #ffffff;
   border: 1px solid #cccccc;
   border-right: transparent;
-  text-transform: capitalize;
   font-family: "Roboto", sans-serif;
-  color: #cccccc;
+  color: #363636;
   padding-left: 10px;
   font-style: italic;
-  width: 229px;
+  max-width: 229px;
+  width: 100%;
   height: 38px;
+}
+.subscribing input::placeholder {
+  font-family: "Roboto", sans-serif;
+  color: #cccccc;
+  font-style: italic;
+  text-transform: capitalize;
 }
 .subscribing input[type="submit"] {
   background-color: #aee0d3;
