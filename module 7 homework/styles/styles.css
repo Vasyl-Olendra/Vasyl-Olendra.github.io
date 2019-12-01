@@ -125,7 +125,7 @@ main {
 }
 .basket-icon::before {
   content: "";
-  background-image: url("/img/basket.png");
+  background-image: url("../img/basket.png");
   background-position: center;
   height: 69px;
   width: 69px;
@@ -137,7 +137,7 @@ main {
 }
 .monitor-icon::before {
   content: "";
-  background-image: url("/img/monitor.png");
+  background-image: url("../img/monitor.png");
   background-position: center;
   height: 69px;
   width: 69px;
@@ -149,7 +149,7 @@ main {
 }
 .lock-icon::before {
   content: "";
-  background-image: url("/img/lock.png");
+  background-image: url("../img/lock.png");
   background-position: center;
   height: 69px;
   width: 69px;
@@ -179,26 +179,25 @@ main {
   margin: 0 auto;
 }
 .contact-block {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
   height: 676px;
   padding-bottom: 19px;
   max-width: 1400px;
   width: 100%;
   margin: 0 auto;
-  background-image: url("/img/Background.png");
+  background-image: url("../img/Background.png");
   background-repeat: no-repeat;
   background-position: right top 117px;
   background-size: 615px 534px;
 }
 /* Second title */
 .second-title-wrap {
-  display: flex;
-  justify-content: center;
   padding-top: 110px;
   padding-bottom: 75px;
+}
+.title {
+  max-width: 498px;
+  width: 100%;
+  margin: 0 auto;
 }
 .second-title-name {
   font-family: "Montserrat-Bold";
@@ -217,11 +216,11 @@ main {
   align-items: center;
 }
 .subscribing-wrap {
+  max-width: 940px;
+  width: 100%;
+  margin: 0 auto;
   display: flex;
   justify-content: space-between;
-}
-.subscribing-wrap .input-wrap {
-  margin-left: 30px;
 }
 .input-wrap {
   height: 211px;
@@ -289,8 +288,6 @@ main {
 }
 .button {
   padding-top: 30px;
-  width: 100%;
-  margin: 0 auto;
 }
 input[type="submit"] {
   border: 1px solid;
