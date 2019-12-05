@@ -7,12 +7,11 @@
   display: flex;
   flex-direction: column;
   height: 540px;
-  background-image: url("../img/people-1.png");
+  background-image: url("../img/people.png");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: auto 100%;
-  max-width: 320px;
-  width: 100%;
+  background-size: cover;
+  max-width: 100%;
   margin: 0 auto;
 }
 /* Navigation block */
@@ -105,12 +104,11 @@ header h1 {
   text-align: center;
 }
 .title-button {
-  border: 1px solid;
-  width: 277px;
-  height: 38px;
+  border: none;
+  width: 278px;
+  height: 39px;
   border-radius: 50px;
   background-color: #de4f51;
-  border-color: #de4f51;
   font-family: "Montserrat", sans-serif;
   font-size: 14px;
   color: #ffffff;
@@ -139,9 +137,10 @@ header h1 {
   align-items: center;
 }
 .info {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  max-width: 220px;
+  width: 100%;
+  text-align: center;
+  position: relative;
 }
 .info-block h3 {
   color: #363636;
@@ -152,13 +151,14 @@ header h1 {
   font-weight: 700;
   padding-bottom: 17px;
 }
-.info h4 {
+.info h4 a {
   color: #363636;
   font-size: 14px;
   font-family: "Montserrat", sans-serif;
   text-align: center;
   font-weight: 700;
   text-transform: capitalize;
+  text-decoration: none;
 }
 .info p {
   color: #666666;
@@ -169,81 +169,89 @@ header h1 {
   padding-top: 16px;
   padding-bottom: 30px;
 }
-.first-person {
+.first-person::before {
+  content: "";
   background-image: url("../img/blonde-guy.png");
   background-position: center;
   height: 121px;
   width: 121px;
   border-radius: 50%;
+  margin: 0 auto;
   margin-bottom: 20px;
-  position: relative;
+  display: block;
 }
-.monitor-icon {
+.monitor-icon::after {
   content: "";
   background-image: url("../img/monitor-icon.png");
   height: 36px;
   width: 36px;
   border-radius: 50%;
   position: absolute;
-  right: 0%;
-  bottom: 0%;
+  right: 50px;
+  bottom: 116px;
 }
-.second-person {
+.second-person::before {
+  content: "";
   background-image: url("../img/guy-round-lips.png");
   background-position: center;
   height: 121px;
   width: 121px;
   border-radius: 50%;
+  margin: 0 auto;
   margin-bottom: 20px;
-  position: relative;
+  display: block;
 }
-.botle-icon {
+.botle-icon::after {
   content: "";
   background-image: url("../img/botle-icon.png");
   height: 36px;
   width: 36px;
   border-radius: 50%;
   position: absolute;
-  right: 0%;
-  bottom: 0%;
+  right: 50px;
+  bottom: 151px;
 }
-.third-person {
+.third-person::before {
+  content: "";
   background-image: url("../img/smiling-girl.png");
   background-position: center;
   height: 121px;
   width: 121px;
   border-radius: 50%;
+  margin: 0 auto;
   margin-bottom: 20px;
-  position: relative;
+  display: block;
 }
-.cup-icon {
+.cup-icon::after {
   content: "";
   background-image: url("../img/cup-icon.png");
   height: 36px;
   width: 36px;
   border-radius: 50%;
   position: absolute;
-  right: 0%;
-  bottom: 0%;
+  right: 50px;
+  bottom: 116px;
 }
-.fourth-person {
+.fourth-person::before {
+  content: "";
   background-image: url("../img/girl-in-glases.png");
   background-position: center;
   height: 121px;
   width: 121px;
   border-radius: 50%;
+  margin: 0 auto;
   margin-bottom: 20px;
-  position: relative;
+  display: block;
 }
-.plane-icon {
+.plane-icon::after {
   content: "";
   background-image: url("../img/plane-icon.png");
   height: 36px;
   width: 36px;
   border-radius: 50%;
   position: absolute;
-  right: 0%;
-  bottom: 0%;
+  right: 50px;
+  bottom: 116px;
 }
 /* Bottom button */
 .bottom-button-wrap {
@@ -266,11 +274,10 @@ header h1 {
   font-weight: 700;
   text-align: center;
 }
-@media screen and (min-width: 321px) and (max-width: 768px) {
+@media screen and (min-width: 768px) {
   .top-wrap {
     height: 700px;
-    background-image: url("../img/people-2.png");
-    max-width: 768px;
+    background-image: url("../img/people.png");
   }
   header {
     max-width: 668px;
@@ -328,11 +335,11 @@ header h1 {
     width: 192px;
   }
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 920px) {
   .top-wrap {
-    height: 700px;
     background-image: url("../img/people.png");
-    max-width: 1400px;
+    background-size: cover;
+    height: 700px;
   }
   header {
     max-width: 940px;
