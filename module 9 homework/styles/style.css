@@ -1,0 +1,295 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  padding: 0;
+}
+.top-wrap {
+  height: 540px;
+  background-image: url("../img/people.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0;
+}
+/* Navigation block */
+.logo {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding-top: 110px;
+  padding-left: 18px;
+}
+.navigation {
+  list-style-type: none;
+  padding-top: 32px;
+}
+.log-in,
+.sign-up {
+  border: 2px solid;
+  width: 88px;
+  height: 35px;
+  border-radius: 50px;
+  background-color: transparent;
+  border-color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  color: #ffffff;
+  cursor: pointer;
+  font-weight: 700;
+}
+.log-in {
+  border: none;
+}
+/* Main title */
+.title {
+  margin-top: 30px;
+  margin-bottom: 18px;
+}
+.title-name {
+  color: #ffffff;
+  font-size: 30px;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 1.2;
+  font-weight: 700;
+}
+.sub-title {
+  color: #ffffff;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  font-weight: 300;
+  padding-top: 19px;
+  max-width: 220px;
+  width: 100%;
+  margin: 0 auto;
+}
+.title-button {
+  border: none;
+  width: 278px;
+  height: 39px;
+  border-radius: 50px;
+  background-color: #de4f51;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  color: #ffffff;
+  cursor: pointer;
+  font-weight: 700;
+  text-align: center;
+}
+/* Info block */
+.info-block {
+  padding-top: 71px;
+}
+/* Articles title */
+.articles-title-wrap {
+  max-width: 270px;
+  width: 100%;
+  padding: 0;
+}
+.articles-title {
+  color: #363636;
+  font-size: 22px;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  line-height: 1.2;
+  font-weight: 700;
+  padding-bottom: 17px;
+}
+.info {
+  max-width: 220px;
+  width: 100%;
+  text-align: center;
+  position: relative;
+  padding: 0;
+}
+.info h4 a {
+  color: #363636;
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  font-weight: 700;
+  text-transform: capitalize;
+  text-decoration: none;
+}
+.info p {
+  color: #666666;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  font-weight: 300;
+  padding-top: 16px;
+  padding-bottom: 30px;
+}
+.first-person::before {
+  content: "";
+  background-image: url("../img/blonde-guy.png");
+  background-position: center;
+  height: 121px;
+  width: 121px;
+  border-radius: 50%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  display: block;
+}
+.monitor-icon::after {
+  content: "";
+  background-image: url("../img/monitor-icon.png");
+  height: 36px;
+  width: 36px;
+  border-radius: 50%;
+  position: absolute;
+  right: 50px;
+  bottom: 116px;
+}
+.second-person::before {
+  content: "";
+  background-image: url("../img/guy-round-lips.png");
+  background-position: center;
+  height: 121px;
+  width: 121px;
+  border-radius: 50%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  display: block;
+}
+.botle-icon::after {
+  content: "";
+  background-image: url("../img/botle-icon.png");
+  height: 36px;
+  width: 36px;
+  border-radius: 50%;
+  position: absolute;
+  right: 50px;
+  bottom: 155px;
+}
+.third-person::before {
+  content: "";
+  background-image: url("../img/smiling-girl.png");
+  background-position: center;
+  height: 121px;
+  width: 121px;
+  border-radius: 50%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  display: block;
+}
+.cup-icon::after {
+  content: "";
+  background-image: url("../img/cup-icon.png");
+  height: 36px;
+  width: 36px;
+  border-radius: 50%;
+  position: absolute;
+  right: 50px;
+  bottom: 116px;
+}
+.fourth-person::before {
+  content: "";
+  background-image: url("../img/girl-in-glases.png");
+  background-position: center;
+  height: 121px;
+  width: 121px;
+  border-radius: 50%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  display: block;
+}
+.plane-icon::after {
+  content: "";
+  background-image: url("../img/plane-icon.png");
+  height: 36px;
+  width: 36px;
+  border-radius: 50%;
+  position: absolute;
+  right: 50px;
+  bottom: 116px;
+}
+/* Bottom button */
+.bottom-button-wrap {
+  margin-bottom: 57px;
+  padding: 0;
+}
+.bottom-button {
+  border: 2px solid;
+  width: 276px;
+  height: 36px;
+  border-radius: 50px;
+  background-color: #ffffff;
+  border-color: #de4f51;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  color: #de4f51;
+  cursor: pointer;
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
+}
+@media screen and (min-width: 768px) {
+  .top-wrap {
+    height: 700px;
+  }
+  /* Navigation block */
+  .logo {
+    padding-top: 32px;
+    padding-left: 53px;
+  }
+  .navigation {
+    padding-right: 53px;
+  }
+  .title {
+    margin-top: 148px;
+    margin-bottom: 35px;
+  }
+
+  .title-name {
+    font-size: 52px;
+  }
+  .sub-title {
+    font-size: 24px;
+    padding-top: 24px;
+    max-width: 768px;
+  }
+  .title-button {
+    width: 225px;
+  }
+  /* Info block */
+  .info-block {
+    padding-top: 75px;
+  }
+  /* Main title */
+  .articles-title-wrap {
+    max-width: 417px;
+  }
+  .info-block h3 {
+    padding-bottom: 35px;
+  }
+  .bottom-button-wrap {
+    margin-top: 8px;
+    margin-bottom: 40px;
+  }
+  .bottom-button {
+    width: 192px;
+  }
+  .plane-icon::after {
+    bottom: 155px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .monitor-icon::after {
+    bottom: 155px;
+  }
+  .cup-icon::after {
+    bottom: 155px;
+  }
+}
